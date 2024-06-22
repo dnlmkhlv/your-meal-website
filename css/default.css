@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  /*position: relative;
+  overflow-x: hidden;*/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+}
