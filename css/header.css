@@ -3,4 +3,16 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 611px;
+  padding: 24px 0 30px;
+}
+
+.header__logo {
+  width: 150px;
+  color: #ffffff;
+  margin-bottom: 0 auto 24px;
+}
+
+.header__title-container {
+  padding-bottom: 246px;
+  /* */
 }
