@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: 611px;
   padding: 24px 0 30px;
+  margin-bottom: 30px;
 }
 
 .header__logo {
@@ -83,20 +84,23 @@
 @media (min-width: 1024px) {
   .header {
     background-size: 2880px;
+    padding-bottom: 63px;
+    margin-bottom: 40px;
   }
 
   .header__container {
-    max-width: calc(562px + var(--padding-container) * 2);
+    max-width: calc(764px + var(--padding-container) * 2);
   }
 
   .header__title-container {
-    padding-left: 237px;
-    min-height: 229px;
+    padding-top: 46px;
+    padding-left: 326px;
+    min-height: 326px;
   }
 
-  .header__title-text {
-    font-size: 36px;
-    margin-bottom: 26px;
+  .header__title {
+    font-size: 50px;
+    margin-bottom: 52px;
   }
 
   .header__appeal {
