@@ -84,3 +84,43 @@
 .navigation__button_sauces {
   background-image: url("../img/sauce.png");
 }
+
+@media (min-width: 480px) {
+  .navigation {
+    --container: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    --container: 640px;
+  }
+
+  .navigation__list {
+    column-gap: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navigation {
+    margin-bottom: 50px;
+    --container: 960px;
+  }
+
+  .navigation__list {
+    column-gap: 24px;
+  }
+
+  .navigation__button {
+    padding: 9px 14px 9px 46px;
+    font-size: 16px;
+    line-height: 22px;
+    background-position: 14px center;
+  }
+}
+
+@media (min-width: 1360px) {
+  .navigation {
+    --container: 1290px;
+  }
+}
